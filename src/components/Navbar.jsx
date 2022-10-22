@@ -30,12 +30,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="cursor-pointer">
-          <Link
-          
-            to="portfolio"
-            smooth={true}
-            duration={500}
-          >
+          <Link to="portfolio" smooth={true} duration={500}>
             Portfolio
           </Link>
         </li>
@@ -62,29 +57,24 @@ const Navbar = () => {
         </h1>
         <ul className="p-4 pt-12">
           <li className="p-4 text-3xl font-bold border-b border-gray-700 cursor-pointer">
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
           </li>
           <li className="p-4 text-3xl font-bold border-b border-gray-700 cursor-pointer">
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
           </li>
           <li className="p-4 text-3xl font-bold border-b border-gray-700 cursor-pointer">
-          <Link
-          
-            to="portfolio"
-            smooth={true}
-            duration={500}
-          >
-            Portfolio
-          </Link>
+            <Link to="portfolio" smooth={true} duration={500}>
+              Portfolio
+            </Link>
           </li>
           <li className="p-4 text-3xl font-bold border-b border-gray-700 cursor-pointer">
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
           </li>
         </ul>
         <div className="pt-12 mx-4">
