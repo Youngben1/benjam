@@ -3,13 +3,13 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div className="w-full h-screen text-center">
+    <div className="w-full text-center">
       <div className="max-w-[1000px] w-full h-full mx-auto flex flex-col justify-center items-center">
-        <div>
-          <h1 className="text-5xl">
+        <div className="m-10">
+          <h1 className="text-4xl">
             Hello, I'm <span className="text-blue-600">Benjamin Renny</span>
           </h1>
-          <h1 className="py-2 text-5xl">A Front-End Web Developer</h1>
+          <h1 className="py-2 text-4xl">A Front-End Web Developer</h1>
           <p className="max-w-[70%] m-auto py-4 text-3xl">
             I am a front-end web developer who likes to create wonderful digital
             experiences. At the moment I am looking for internships which will

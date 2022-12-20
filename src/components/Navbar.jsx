@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center p-4 bg-gray-300 shadow-xl w-full z-[100] max-w-[1240px] mx-auto">
       <div>
-        <h1 className="text-4xl font-bold cursor-pointer hover:text-purple-900">
+        <h1 className="text-3xl font-bold cursor-pointer hover:text-purple-900">
           Renny.JS
         </h1>
       </div>
