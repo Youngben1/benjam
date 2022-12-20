@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -20,24 +19,16 @@ const Navbar = () => {
 
       <ul className="hidden space-x-5 text-xl font-bold md:flex sm:space-x-3">
         <li className="cursor-pointer">
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
+          <a href="/">Home</a>
         </li>
         <li className="cursor-pointer">
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
+          <a href="/skills">Skills</a>
         </li>
         <li className="cursor-pointer">
-          <Link to="portfolio" smooth={true} duration={500}>
-            Portfolio
-          </Link>
+          <a href="/portfolio">Portfolio</a>
         </li>
         <li className="cursor-pointer">
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
 
@@ -57,24 +48,16 @@ const Navbar = () => {
         </h1>
         <ul className="p-4 pt-12">
           <li className="p-4 text-3xl font-bold border-b border-gray-700 cursor-pointer">
-            <Link to="home" smooth={true} duration={500}>
-              Home
-            </Link>
+            <a href="/">Home</a>
           </li>
           <li className="p-4 text-3xl font-bold border-b border-gray-700 cursor-pointer">
-            <Link to="skills" smooth={true} duration={500}>
-              Skills
-            </Link>
+            <a href="/skills">Skills</a>
           </li>
           <li className="p-4 text-3xl font-bold border-b border-gray-700 cursor-pointer">
-            <Link to="portfolio" smooth={true} duration={500}>
-              Portfolio
-            </Link>
+            <a href="/portfolio">Portfolio</a>
           </li>
           <li className="p-4 text-3xl font-bold border-b border-gray-700 cursor-pointer">
-            <Link to="contact" smooth={true} duration={500}>
-              Contact
-            </Link>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
         <div className="pt-12 mx-4">
