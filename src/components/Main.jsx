@@ -12,11 +12,11 @@ const Main = () => {
           <h1 className="py-2 text-4xl">A Front-End Web Developer</h1>
           <p className="max-w-[70%] m-auto py-4 text-3xl">
             I am a front-end web developer who likes to create wonderful digital
-            experiences. At the moment I am looking for internships which will
-            hopefully lead to a full time job with a tech company, I am focused
-            on creating responsive front-end web applications using ReactJs and
-            NextJs while learning some back end technologies like 🐍 and also
-            NodeJs.
+            experiences. At the moment I am looking for a full time role as a
+            Junior Front end Developer with a company in need of tech services,
+            I am focused on creating responsive front-end web applications using
+            ReactJs and NextJs while learning some back end technologies like
+            python 🐍 and also NodeJs.
           </p>
         </div>
         <div className="flex items-center justify-between text-center my-1 sm:w-[30%] mr-5">
